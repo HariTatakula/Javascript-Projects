@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript While Loop</h2>
+
+<p id="demo"></p>
+
+<h2>JavaScript Do while Loop</h2>
+
+<p id="demo2"></p>
+
+<h2>JavaScript For Loop</h2>
+
+<p id="demo3"></p>
+
+<h2>JavaScript For Loop Reverse</h2>
+
+<p id="demo4"></p>
+
+
+<script type="text/javascript">
+
+    // Array Declaration in GLOBAL Scope
+
+    const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi", "Jeep","Nissan"];
+
+    /* ------------------------------------------------------------------------------------------ */
+
+    let text = ""; // Initialising empty string
+    let i = 0; // Initialising Counter
+
+    window.alert("you are at the first step");
+
+    // Appending String with WHILE LOOP
+
+    text += "<ul>";
+    while(i < cars.length) {
+        text += "<li>" + cars[i] + "</li>";
+        i++;
+    }
+    text += "</ul>";
+    
+    window.prompt("you are at the second step");
+    window.confirm('do you want to delete');
+
+    // Injecting Content in HTML
+    document.getElementById("demo").innerHTML = text;
+
+    /* ------------------------------------------------------------------------------------------ */
+    
+    let text2 = ""; // Initialising empty string
+    let j = 0; // Initialising Counter
+
+    // Appending String with DO WHILE LOOP
+
+    do {
+        text2 += "<ul>";
+        text2 += "<li>" + cars[j] + "</li>";
+        text2 += "</ul>";
+        j++;
+    }while(j < cars.length);
+
+    // Injecting Content in HTML
+    document.getElementById("demo2").innerHTML = text2;
+
+    /* ------------------------------------------------------------------------------------------ */
+
+    let text3 = ""; // Initialising empty string
+
+    // Appending String with FOR LOOP
+
+    for (let m = 0; m < cars.length; m++) {
+
+        text3 += "<ul>";
+
+        text3 += "<li>" + cars[m] + "</li>";
+
+        text3 += "</ul>";
+
+    }
+
+    // Injecting Content in HTML
+    document.getElementById("demo3").innerHTML = text3;
+
+    /* ------------------------------------------------------------------------------------------ */
+    
+    let text4 = ""; // Initialising empty string
+
+    // Appending String with FOR LOOP IN REVERSE ORDER
+
+    for (let k = cars.length - 1; k >= 0; k--) {
+
+        text4 += "<ul>";
+
+        text4 += "<li>" + cars[k] + "</li>";
+
+        text4 += "</ul>";
+    
+    }
+
+    // Injecting Content in HTML
+    document.getElementById("demo4").innerHTML = text4;
+
+    /* ------------------------------------------------------------------------------------------ */
+
+  
+</script>
+
+</body>
+
+</html>
+
+
+
+
+

@@ -1,0 +1,33 @@
+BASIC LEARNING OF JS
+https://www.javascript.com/learn/strings
+https://www.javascript.com/try
+https://javascript.info/
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript
+
+
+STRING METHODS
+https://www.w3schools.com/js/js_string_methods.asp
+
+
+ARRAY SORT
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_sort2
+
+
+BUILT-IN FUNCTION LIST
+https://www.tutorialspoint.com/javascript/javascript_builtin_functions.htm
+
+
+JAVASCRIPT PROJECT FOR BEGINNERS
+https://mikkegoes.com/javascript-projects-for-beginners/
+
+
+TYPE CONVERSION
+https://www.programiz.com/javascript/type-conversion
+
+HTML AND JS ON/OFF BULB EXAMPLE
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_lightbulb (edited) 
+:eyes:
+4
+:+1:
+1
+
